@@ -10,7 +10,7 @@ const snapshot = document.querySelector('#snapshot')
 const previewImage = document.querySelector('#snapshot img')
 // END DOM BINDING
 
-liff.init({ liffId: "<YOUR-LIFF-ID>" }, () => {
+liff.init({ liffId: "1657505219-2lLmYglr" }, () => {
   // Do something with LIFF functions
 })
 
@@ -98,9 +98,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase
 import { getFunctions, httpsCallable } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-functions.js";
 
 const firebaseConfig = {
-  apiKey: "### FIREBASE API KEY ###",
-  authDomain: "### FIREBASE AUTH DOMAIN ###",
-  projectId: "### CLOUD FUNCTIONS PROJECT ID ###"
+  apiKey: "AIzaSyAVdbpZvNgvjhAMoBY7-s-smi31vwK52Dw",
+  authDomain: "giassist2-24184.firebaseapp.com",
+  projectId: "giassist2-24184"
 };
 const app = initializeApp(firebaseConfig);
 const functions = getFunctions(app);
